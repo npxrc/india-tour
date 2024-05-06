@@ -1,0 +1,49 @@
+{
+    "places":[
+        {
+            "place": "<u class=\"https://del.nic.in/\">New Delhi</u>",
+            "description": "New Delhi is the capital of India, with ",
+            "detailed":[
+
+            ],
+            "img": "./src/image.png"
+        },
+        {
+            "place": "<u class=\"https://agra.nic.in/\">Agra</u>",
+            "description": "Agra is a city in the Indian state of Uttar Pradesh, and is home to the Taj Mahal. During the reign of the Mughal Dynasty in India, most of the emperors lived in Agra.",
+            "detailed":[
+                {
+                    "name": "<u class=\"https://www.tripadvisor.com/Attraction_Review-g297683-d317329-Reviews-Taj_Mahal-Agra_Agra_District_Uttar_Pradesh.html\">Taj Mahal</u>",
+                    "description": "The Taj Mahal the most iconic monument, and is visited by millions of tourists each year. It serves as a tomb for the Mughal Emperor Shah Jahan's wife, Mumtaz Mahal. This wonderful feat architecture is created entirely out of White Marble, and only took 16 years to construct, starting in 1632 and ending in 1648, and took another 5 years to add the mosque, guest house, and outer courtyard.",
+                    "url": "https://www.tripadvisor.com/Attraction_Review-g297683-d317329-Reviews-Taj_Mahal-Agra_Agra_District_Uttar_Pradesh.html"
+                },
+                {
+                    "name": "<u class=\"https://www.tripadvisor.com/Attraction_Review-g737055-d12727702-Reviews-Akbar_s_Tomb-Sikandra_Jamui_District_Bihar.html\">Tomb of Akbar</u>",
+                    "description": "Akbar was the third and the greatest Mughal Emperor, giving him the name \"Akbar the Great.\" Although Akbar was illiterate, he was always appreciative of anyone who could teach him new things, and was very understanding of other people's religions. Akbar died 12 days after his 63rd birthday, on 27 October 1605. While Akbar was alive, he wanted to complete a beautiful mausoleum made of sandstone and marble. After he died, and during the reign of Aurangzeb, Jats rose in rebellion, and desecrated his tomb, plundering and looting all the gold, jewels, silver, and carpets.",
+                    "url": "https://www.tripadvisor.com/Attraction_Review-g737055-d12727702-Reviews-Akbar_s_Tomb-Sikandra_Jamui_District_Bihar.html"
+                },
+                {
+                    "name": "<u class=\"https://www.tripadvisor.com/Attraction_Review-g297683-d319695-Reviews-Agra_Fort-Agra_Agra_District_Uttar_Pradesh.html\">Agra Fort</u>",
+                    "description": "<u class=\"https://agra.nic.in/tourist-place/agra-fort/\">The Agra Fort was the main residence of the emperors of the Mughal Dynasty until 1638, when the capital was shifted from Agra to Delhi.</u> Emperor Shah Jahan, who was famous for building the Taj Mahal which is 2.5km away from the Agra Fort, had built an ornate Peacock Throne. He had placed the Koh-I-Noor Diamond inside the throne. The fort has been through many significant historical events, such as the beginning of Mughal Empire's decline, the house arrest of Shah Jahan, and a brief occupation of the fort by the British during their colonial rule. The fort is a symbol of the Mughal empire's prestige and the great effects it has placed upon India",
+                    "url": "https://www.tripadvisor.com/Attraction_Review-g297683-d319695-Reviews-Agra_Fort-Agra_Agra_District_Uttar_Pradesh.html"
+                }
+            ],
+            "img": "./src/image.png"
+        },
+        {
+            "place": "<u class=\"https://bengaluruurban.nic.in/en/\">Bangalore</u>",
+            "description": "<u class=\"https://www.mapsofindia.com/my-india/history/know-how-bangalore-became-indias-it-capital-the-rise-of-the-silicon-valley-of-india\">Bangalore is said to be the 'Silicon Valley of India.'</u>",
+            "img": "./src/image.png"
+        },
+        {
+            "place": "<u class=\"\">Nowhere</u>",
+            "description": "Description goes here!",
+            "img": "./src/image.png"
+        },
+        {
+            "place": "<u class=\"\">Nowhere</u>",
+            "description": "Description goes here!",
+            "img": "./src/image.png"
+        }
+    ]
+}

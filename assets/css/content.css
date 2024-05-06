@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20,20,20);
+    color: white;
+    transition: background-color 400ms linear, color 400ms linear;
+    overflow-x: hidden;
+}
+canvas {
+    position: absolute;
+    z-index: -3;
+    top: 0;
+    left: 0;
+    opacity: 80%;
+}
+*:not(canvas){
+    font-family: 'Product Sans Regular';
+    z-index: 1;
+}
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 50px;
+}
+
+.hero h1 {
+    font-size: 6.3rem;
+    z-index: -1;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+}
+.hero h2 {
+    font-size: 4rem;
+    z-index: -1;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+}
+.content{
+    padding:  25px 50px;
+    margin: 0;
+    transform: translateY(-10rem);
+}
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.content{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.content .cursorPointer > h2{
+    cursor: pointer;
+}
