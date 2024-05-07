@@ -38,7 +38,31 @@
                 document.body.style.overflow="hidden"
                 document.getElementById('container').classList.add('blur')
             };
-            showErrorModal('','notreadyyet')
+            let isbanned = false;
+            date = new Date();
+            if (date.getFullYear()==2024){
+                if (date.getMonth()==4){
+                    if (date.getDate()<15 && date.getDate()>=7){
+                        showErrorModal('','notreadyyet')
+                        isbanned=true;
+                    } else{
+                        isbanned?location.reload():null;
+                    }
+                }
+            }
+            setInterval(() => {
+                date = new Date();
+                if (date.getFullYear()==2024){
+                    if (date.getMonth()==4){
+                        if (date.getDate()<15 && date.getDate()>=7){
+                            showErrorModal('','notreadyyet')
+                            isbanned=true;
+                        } else{
+                            isbanned?location.reload():null;
+                        }
+                    }
+                }
+            }, 1000);
         </script>
 
         <script src="./assets/js/canvas.js"></script>
