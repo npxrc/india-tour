@@ -9,6 +9,9 @@ body {
     transition: background-color 400ms linear, color 400ms linear;
     overflow-x: hidden;
 }
+body.fakeCursorHidden{
+	cursor: default !important;
+}
 canvas {
     position: absolute;
     z-index: -3;

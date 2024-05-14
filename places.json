@@ -5,8 +5,7 @@
             "description": "New Delhi is the capital of India, with an area of 16 square miles. Though Delhi and New Delhi are used interchangeably, they are in fact two distinct entities, as New Delhi is merely a section of the megacity of Delhi. The original city of Old Delhi used to serve as a walled city and political and financial centre of medieval India, the Delhi Sultanate, and the Mughal Empire. <u class=\"https://www.britannica.com/place/New-Delhi\">In December of 1911, King George V of Great Britain declared that the capital of British India would move from Kolkata (Calcutta at the time) to Delhi.</u>",
             "detailed":[
 
-            ],
-            "img": "./src/image.png"
+            ]
         },
         {
             "place": "<u class=\"https://agra.nic.in/\">Agra</u>",
@@ -27,8 +26,7 @@
                     "description": "<u class=\"https://agra.nic.in/tourist-place/agra-fort/\">The Agra Fort was the main residence of the emperors of the Mughal Dynasty until 1638, when the capital was shifted from Agra to Delhi.</u> Emperor Shah Jahan, who was famous for building the Taj Mahal which is 2.5km away from the Agra Fort, had built an ornate Peacock Throne. He had placed the Koh-I-Noor Diamond inside the throne. The fort has been through many significant historical events, such as the beginning of Mughal Empire's decline, the house arrest of Shah Jahan, and a brief occupation of the fort by the British during their colonial rule. The fort is a symbol of the Mughal empire's prestige and the great effects it has placed upon India",
                     "url": "https://www.tripadvisor.com/Attraction_Review-g297683-d319695-Reviews-Agra_Fort-Agra_Agra_District_Uttar_Pradesh.html"
                 }
-            ],
-            "img": "./src/image.png"
+            ]
         },
         {
             "place": "<u class=\"https://bengaluruurban.nic.in/en/\">Bangalore</u>",
@@ -37,13 +35,11 @@
         },
         {
             "place": "<u class=\"\">Nowhere</u>",
-            "description": "Description goes here!",
-            "img": "./src/image.png"
+            "description": "Description goes here!"
         },
         {
             "place": "<u class=\"\">Nowhere</u>",
-            "description": "Description goes here!",
-            "img": "./src/image.png"
+            "description": "Description goes here!"
         }
     ]
 }

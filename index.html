@@ -27,7 +27,8 @@
                 errorContent.id="modalContent";
                 let fromFile = (file!==null&&file!==undefined)?` from <u class="./assets/js/${file}"><code>${file}</code></u>`:''
                 errorContent.innerHTML = `<h2>An error occurred${fromFile}</h2><code>${event}</code><br><br><hr><br>Check the browser console for more details (F12 or CTRL+Shift+I)<br><button onclick="location.reload()">Reload</button>`;
-                if (file=="notreadyyet") errorContent.innerHTML = `<h2>An error occurred</h2><code>This app isnt ready yet :)</code><br><br><hr><br>Check back soon!<br><button onclick="location.reload()">Reload</button>`;
+                if (file=="notreadyyet") errorContent.innerHTML = `<h2>An error occurred</h2><code>This app isnt ready yet :)</code><br><br><hr><br>Check back soon!<br>Or... enter an access key?<br><input id="earlyAccessKey" type="text"><br><hr><button onclick="location.reload()">Reload</button>`;
+                document.body.classList.add('fakeCursorHidden')
                 errorElem.append(errorContent)
                 document.body.append(errorElem);
                 scrollTo({
@@ -42,9 +43,20 @@
             date = new Date();
             if (date.getFullYear()==2024){
                 if (date.getMonth()==4){
-                    if (date.getDate()<15 && date.getDate()>=7){
+                    if (date.getDate()<15 && date.getDate()>=7 && !isbanned && localStorage.getItem('earlyAccess')!=='true'){
                         showErrorModal('','notreadyyet')
                         isbanned=true;
+                        document.getElementById('earlyAccessKey').addEventListener('keydown',(event)=>{
+                            if (event.key == '/'){
+                                console.log(document.getElementById('earlyAccessKey').value)
+                                if (document.getElementById('earlyAccessKey').value=='indiatour'){
+                                    localStorage.setItem('earlyAccess', 'true')
+                                    location.reload()
+                                }
+                            }
+                        })
+                    } else if (isbanned){
+                        null;
                     } else{
                         isbanned?location.reload():null;
                     }
@@ -54,9 +66,20 @@
                 date = new Date();
                 if (date.getFullYear()==2024){
                     if (date.getMonth()==4){
-                        if (date.getDate()<15 && date.getDate()>=7){
+                        if (date.getDate()<15 && date.getDate()>=7 && !isbanned && localStorage.getItem('earlyAccess')!=='true'){
                             showErrorModal('','notreadyyet')
                             isbanned=true;
+                            document.getElementById('earlyAccessKey').addEventListener('keydown',(event)=>{
+                                if (event.key == '/'){
+                                    console.log(document.getElementById('earlyAccessKey').value)
+                                    if (document.getElementById('earlyAccessKey').value=='indiatour'){
+                                        localStorage.setItem('earlyAccess', 'true')
+                                        location.reload()
+                                    }
+                                }
+                            })
+                        } else if (isbanned){
+                            null;
                         } else{
                             isbanned?location.reload():null;
                         }
