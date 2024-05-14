@@ -2,7 +2,7 @@
     "places":[
         {
             "place": "<u class=\"https://del.nic.in/\">New Delhi</u>",
-            "description": "New Delhi is the capital of India, with ",
+            "description": "New Delhi is the capital of India, with an area of 16 square miles. Though Delhi and New Delhi are used interchangeably, they are in fact two distinct entities, as New Delhi is merely a section of the megacity of Delhi. The original city of Old Delhi used to serve as a walled city and political and financial centre of medieval India, the Delhi Sultanate, and the Mughal Empire. <u class=\"https://www.britannica.com/place/New-Delhi\">In December of 1911, King George V of Great Britain declared that the capital of British India would move from Kolkata (Calcutta at the time) to Delhi.</u>",
             "detailed":[
 
             ],
@@ -10,15 +10,15 @@
         },
         {
             "place": "<u class=\"https://agra.nic.in/\">Agra</u>",
-            "description": "Agra is a city in the Indian state of Uttar Pradesh, and is home to the Taj Mahal. During the reign of the Mughal Dynasty in India, most of the emperors lived in Agra.",
+            "description": "Agra is a city in the Indian state of Uttar Pradesh, and is home to the Taj Mahal. During the reign of the Mughal Dynasty in India, most of the emperors lived in Agra. <u class=\"https://www.wikiwand.com/en/Agra#History\">Agra in fact has two different histories,</u> with one being on the left of the Yamuna river, and the other being the modern city founded by <u class=\"#akbar\">Akbar</u> in 1558.",
             "detailed":[
                 {
                     "name": "<u class=\"https://www.tripadvisor.com/Attraction_Review-g297683-d317329-Reviews-Taj_Mahal-Agra_Agra_District_Uttar_Pradesh.html\">Taj Mahal</u>",
-                    "description": "The Taj Mahal the most iconic monument, and is visited by millions of tourists each year. It serves as a tomb for the Mughal Emperor Shah Jahan's wife, Mumtaz Mahal. This wonderful feat architecture is created entirely out of White Marble, and only took 16 years to construct, starting in 1632 and ending in 1648, and took another 5 years to add the mosque, guest house, and outer courtyard.",
+                    "description": "The Taj Mahal the most iconic monument, and is visited by millions of tourists each year. It serves as a tomb for the Mughal Emperor Shah Jahan's wife, Mumtaz Mahal. This wonderful feat of architecture is created entirely out of White Marble, and only took 16 years to construct, starting in 1632. Though construction ended in 1648, they took another 5 years to add the mosque, guest house, and outer courtyard.",
                     "url": "https://www.tripadvisor.com/Attraction_Review-g297683-d317329-Reviews-Taj_Mahal-Agra_Agra_District_Uttar_Pradesh.html"
                 },
                 {
-                    "name": "<u class=\"https://www.tripadvisor.com/Attraction_Review-g737055-d12727702-Reviews-Akbar_s_Tomb-Sikandra_Jamui_District_Bihar.html\">Tomb of Akbar</u>",
+                    "name": "<u id=\"akbar\" class=\"https://www.tripadvisor.com/Attraction_Review-g737055-d12727702-Reviews-Akbar_s_Tomb-Sikandra_Jamui_District_Bihar.html\">Tomb of Akbar</u>",
                     "description": "Akbar was the third and the greatest Mughal Emperor, giving him the name \"Akbar the Great.\" Although Akbar was illiterate, he was always appreciative of anyone who could teach him new things, and was very understanding of other people's religions. Akbar died 12 days after his 63rd birthday, on 27 October 1605. While Akbar was alive, he wanted to complete a beautiful mausoleum made of sandstone and marble. After he died, and during the reign of Aurangzeb, Jats rose in rebellion, and desecrated his tomb, plundering and looting all the gold, jewels, silver, and carpets.",
                     "url": "https://www.tripadvisor.com/Attraction_Review-g737055-d12727702-Reviews-Akbar_s_Tomb-Sikandra_Jamui_District_Bihar.html"
                 },

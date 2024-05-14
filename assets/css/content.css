@@ -1,3 +1,6 @@
+.content .cursorPointer > h2{
+  cursor: pointer;
+}
 body {
     margin: 0;
     padding: 0;
@@ -35,20 +38,35 @@ canvas {
     z-index: -1;
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
 }
-.content{
-    padding:  25px 50px;
+.content {
+    padding: 25px 50px;
     margin: 0;
     transform: translateY(-10rem);
-}
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 3rem;
-}
-
-.content{
     font-size: 1.5rem;
     line-height: 1.5;
-}
-.content .cursorPointer > h2{
-    cursor: pointer;
-}
+  }
+  
+  .content h2 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .content-text {
+    flex: 1;
+  }
+  
+  .content-image {
+    margin-left: 20px;
+    max-width: 500px;
+  }
+  
+  .content-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  

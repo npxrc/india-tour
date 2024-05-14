@@ -37,7 +37,15 @@ try{
         let parentClassList=event.target.parentElement.classList[2]
         let elemClassList=event.target.classList[0]
         if (elemClassList!==null && elemClassList !==undefined && (elemClassList.toString().startsWith('https://')||elemClassList.toString().startsWith('./'))) openURL(elemClassList, elemClassList.toString().startsWith('./'))
-        if (parentClassList!==null && parentClassList!==undefined && (parentClassList.toString().startsWith('https://')||parentClassList.toString().startsWith('./'))) openURL(parentClassList, parentClassList.toString().startsWith('./'))
+        else if (parentClassList!==null && parentClassList!==undefined && (parentClassList.toString().startsWith('https://')||parentClassList.toString().startsWith('./'))) openURL(parentClassList, parentClassList.toString().startsWith('./'))
+        if (elemClassList!==null && elemClassList !==undefined && elemClassList.toString().startsWith('#')) {
+            $(elemClassList.replace('#','')).scrollIntoView();
+            window.scrollBy(0, $(elemClassList.replace('#','')).offsetTop)
+        }
+        else if (parentClassList !==null &&parentClassList !==undefined && parentClassList.toString().startsWith('#')) {
+            $(parentClassList.replace('#','')).scrollIntoView();
+            window.scrollBy(0, ($(parentClassList.replace('#','')).offsetTop+$(parentClassList.replace('#','')).offsetHeight))
+        }
         console.log(elemClassList, parentClassList);
     });
     window.addEventListener('mouseup', () => {
