@@ -1,9 +1,12 @@
 try{
-    let cursorMoveDuration = 300;
     let cursor = document.getElementsByTagName('cursor')[0]
     let clientX;
     let clientY;
     let mouse='up'
+
+    let fakeCursorHidden = false;
+    if (localStorage.getItem('fakeCursorHidden')==='true') hideFakeCursor()
+
     window.onpointermove = event => { 
         cursorActive();
         clientX = event.clientX;
@@ -11,8 +14,21 @@ try{
         cursor.animate({
             left: `${clientX}px`,
             top: `${clientY+scrollY}px`
-        }, { duration: 750, fill: "forwards" });
+        }, { duration: 500, fill: "forwards" });
         hidecursor = setTimeout(() => {cursorIdle()}, 2500);
+    }
+    function hideFakeCursor(){
+        if (fakeCursorHidden){
+            cursor.style.display="block"
+            document.body.classList.remove('fakeCursorHidden')
+            fakeCursorHidden = false;
+            localStorage.setItem('fakeCursorHidden', 'false')
+        } else{
+            cursor.style.display="none"
+            document.body.classList.add('fakeCursorHidden')
+            fakeCursorHidden = true;
+            localStorage.setItem('fakeCursorHidden', 'true')
+        }
     }
     if (('ontouchstart' in window)==true||navigator.msMaxTouchPoints>0){
         cursor.style.display="none"
@@ -21,7 +37,8 @@ try{
         if (('ontouchstart' in window)==true||navigator.msMaxTouchPoints>0){
             cursor.style.display="none"
         } else{
-            cursor.style.display="block"
+            if (fakeCursorHidden) cursor.style.display="none"
+            else cursor.style.display="block"
         }
     }, 1000);
     function openURL(url, bypass){
