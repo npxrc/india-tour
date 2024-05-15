@@ -44,7 +44,7 @@
             date = new Date();
             if (date.getFullYear()==2024){
                 if (date.getMonth()==4){
-                    if (date.getDate()<15 && date.getDate()>=7 && !isbanned && localStorage.getItem('earlyAccess')!=='true'){
+                    if (date.getDate()<19 && date.getDate()>=7 && !isbanned && localStorage.getItem('earlyAccess')!=='true'){
                         showErrorModal('','notreadyyet')
                         isbanned=true;
                         document.getElementById('earlyAccessKey').addEventListener('keydown',(event)=>{
@@ -67,7 +67,7 @@
                 date = new Date();
                 if (date.getFullYear()==2024){
                     if (date.getMonth()==4){
-                        if (date.getDate()<15 && date.getDate()>=7 && !isbanned && localStorage.getItem('earlyAccess')!=='true'){
+                        if (date.getDate()<19 && date.getDate()>=7 && !isbanned && localStorage.getItem('earlyAccess')!=='true'){
                             showErrorModal('','notreadyyet')
                             isbanned=true;
                             document.getElementById('earlyAccessKey').addEventListener('keydown',(event)=>{
