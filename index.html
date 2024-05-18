@@ -9,6 +9,7 @@
     </head>
     <body data-color-scheme="dark">
         <cursor></cursor>
+        <button onclick="hideFakeCursor()" style="cursor: pointer; margin: 5px;">Hide Custom Cursor</button>
         <div id="container">
             <section class="hero">
                 <h1>places in india to go</h1>
@@ -66,7 +67,7 @@
                 date = new Date();
                 if (date.getFullYear()==2024){
                     if (date.getMonth()==4){
-                        if (date.getDate()<15 && date.getDate()>=7 && !isbanned && localStorage.getItem('earlyAccess')!=='true'){
+                        if (date.getDate()<19 && date.getDate()>=7 && !isbanned && localStorage.getItem('earlyAccess')!=='true'){
                             showErrorModal('','notreadyyet')
                             isbanned=true;
                             document.getElementById('earlyAccessKey').addEventListener('keydown',(event)=>{

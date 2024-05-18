@@ -4,6 +4,12 @@ try{
     let clientY;
     let mouse='up'
 
+<<<<<<< HEAD
+=======
+    let fakeCursorHidden = false;
+    if (localStorage.getItem('fakeCursorHidden')==='true') hideFakeCursor()
+
+>>>>>>> ebe8dd32f889706f5de9e823dcd2a5dae564a7a2
     window.onpointermove = event => { 
         cursorActive();
         clientX = event.clientX;
@@ -14,7 +20,34 @@ try{
         }, { duration: 500, fill: "forwards" });
         hidecursor = setTimeout(() => {cursorIdle()}, 2500);
     }
+<<<<<<< HEAD
     cursor.style.display="none"
+=======
+    function hideFakeCursor(){
+        if (fakeCursorHidden){
+            cursor.style.display="block"
+            document.body.classList.remove('fakeCursorHidden')
+            fakeCursorHidden = false;
+            localStorage.setItem('fakeCursorHidden', 'false')
+        } else{
+            cursor.style.display="none"
+            document.body.classList.add('fakeCursorHidden')
+            fakeCursorHidden = true;
+            localStorage.setItem('fakeCursorHidden', 'true')
+        }
+    }
+    if (('ontouchstart' in window)==true||navigator.msMaxTouchPoints>0){
+        cursor.style.display="none"
+    }
+    setInterval(() => {
+        if (('ontouchstart' in window)==true||navigator.msMaxTouchPoints>0){
+            cursor.style.display="none"
+        } else{
+            if (fakeCursorHidden) cursor.style.display="none"
+            else cursor.style.display="block"
+        }
+    }, 1000);
+>>>>>>> ebe8dd32f889706f5de9e823dcd2a5dae564a7a2
     function openURL(url, bypass){
         if (bypass) return window.open(url)
         if (confirm('This will open in a new window, continue?')){
