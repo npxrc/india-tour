@@ -2,44 +2,61 @@
     "places":[
         {
             "place": "<u class=\"https://del.nic.in/\">New Delhi</u>",
-            "description": "New Delhi is the capital of India, with an area of 16 square miles. Though Delhi and New Delhi are used interchangeably, they are in fact two distinct entities, as New Delhi is merely a section of the megacity of Delhi. The original city of Old Delhi used to serve as a walled city and political and financial centre of medieval India, the Delhi Sultanate, and the Mughal Empire. <u class=\"https://www.britannica.com/place/New-Delhi\">In December of 1911, King George V of Great Britain declared that the capital of British India would move from Kolkata (Calcutta at the time) to Delhi.</u>",
-            "detailed":[
-
-            ]
-        },
-        {
-            "place": "<u class=\"https://agra.nic.in/\">Agra</u>",
-            "description": "Agra is a city in the Indian state of Uttar Pradesh, and is home to the Taj Mahal. During the reign of the Mughal Dynasty in India, most of the emperors lived in Agra. <u class=\"https://www.wikiwand.com/en/Agra#History\">Agra in fact has two different histories,</u> with one being on the left of the Yamuna river, and the other being the modern city founded by <u class=\"#akbar\">Akbar</u> in 1558.",
+            "description": "New Delhi is the capital of India, with a rich history spanning multiple centuries. Though Delhi and New Delhi are used interchangeably, they are in fact two distinct entities, as New Delhi is merely a section of the megacity of Delhi. The original city of Old Delhi used to serve as a walled city and political and financial centre of medieval India, the Delhi Sultanate, and the Mughal Empire. <u class=\"https://www.britannica.com/place/New-Delhi\">In December of 1911, King George V of Great Britain declared that the capital of British India would move from Kolkata (Calcutta at the time) to Delhi.</u> However, the area making up present-day Delhi has been inhabited since the 6th century BCE. <br> In 1857, the British East India Company gained control of Delhi, and ruled the Indian subcontinent for 90 years until India gained independence in 1947. After India gained independence in 1947, New Delhi continued to grow and expand, with the creation of residential areas such as Lajpat Nagar, Canakyapuri, and Hauz Khas.<br>Currently, Delhi is a thriving city, and is the second biggest city in India, and the fourth largest city in the world",
             "detailed":[
                 {
-                    "name": "<u class=\"https://www.tripadvisor.com/Attraction_Review-g297683-d317329-Reviews-Taj_Mahal-Agra_Agra_District_Uttar_Pradesh.html\">Taj Mahal</u>",
-                    "description": "The Taj Mahal the most iconic monument, and is visited by millions of tourists each year. It serves as a tomb for the Mughal Emperor Shah Jahan's wife, Mumtaz Mahal. This wonderful feat of architecture is created entirely out of White Marble, and only took 16 years to construct, starting in 1632. Though construction ended in 1648, they took another 5 years to add the mosque, guest house, and outer courtyard.",
-                    "url": "https://www.tripadvisor.com/Attraction_Review-g297683-d317329-Reviews-Taj_Mahal-Agra_Agra_District_Uttar_Pradesh.html"
-                },
-                {
-                    "name": "<u id=\"akbar\" class=\"https://www.tripadvisor.com/Attraction_Review-g737055-d12727702-Reviews-Akbar_s_Tomb-Sikandra_Jamui_District_Bihar.html\">Tomb of Akbar</u>",
-                    "description": "Akbar was the third and the greatest Mughal Emperor, giving him the name \"Akbar the Great.\" Although Akbar was illiterate, he was always appreciative of anyone who could teach him new things, and was very understanding of other people's religions. Akbar died 12 days after his 63rd birthday, on 27 October 1605. While Akbar was alive, he wanted to complete a beautiful mausoleum made of sandstone and marble. After he died, and during the reign of Aurangzeb, Jats rose in rebellion, and desecrated his tomb, plundering and looting all the gold, jewels, silver, and carpets.",
-                    "url": "https://www.tripadvisor.com/Attraction_Review-g737055-d12727702-Reviews-Akbar_s_Tomb-Sikandra_Jamui_District_Bihar.html"
-                },
-                {
-                    "name": "<u class=\"https://www.tripadvisor.com/Attraction_Review-g297683-d319695-Reviews-Agra_Fort-Agra_Agra_District_Uttar_Pradesh.html\">Agra Fort</u>",
-                    "description": "<u class=\"https://agra.nic.in/tourist-place/agra-fort/\">The Agra Fort was the main residence of the emperors of the Mughal Dynasty until 1638, when the capital was shifted from Agra to Delhi.</u> Emperor Shah Jahan, who was famous for building the Taj Mahal which is 2.5km away from the Agra Fort, had built an ornate Peacock Throne. He had placed the Koh-I-Noor Diamond inside the throne. The fort has been through many significant historical events, such as the beginning of Mughal Empire's decline, the house arrest of Shah Jahan, and a brief occupation of the fort by the British during their colonial rule. The fort is a symbol of the Mughal empire's prestige and the great effects it has placed upon India",
-                    "url": "https://www.tripadvisor.com/Attraction_Review-g297683-d319695-Reviews-Agra_Fort-Agra_Agra_District_Uttar_Pradesh.html"
+                    "name": "Delhi Red Fort",
+                    "description": "The Delhi Red Fort is the largest monument in Delhi.",
+                    "img": "./src/redfort.jpg"
                 }
             ]
         },
         {
-            "place": "<u class=\"https://bengaluruurban.nic.in/en/\">Bangalore</u>",
-            "description": "<u class=\"https://www.mapsofindia.com/my-india/history/know-how-bangalore-became-indias-it-capital-the-rise-of-the-silicon-valley-of-india\">Bangalore is said to be the 'Silicon Valley of India.'</u>",
-            "img": "./src/image.png"
+            "place": "<u class=\"https://agra.nic.in/\">Agra</u>",
+            "description": "Agra is a city in the Indian state of Uttar Pradesh, and is home to the Taj Mahal. During the reign of the Mughal Dynasty in India, most of the emperors lived in Agra. <u class=\"https://www.wikiwand.com/en/Agra#History\">Agra in fact has two different histories,</u> with one being on the left of the Yamuna river, and the other being the modern city founded by <u class=\"#akbar\">Akbar</u> in 1558. Educationally, Agra is home to 3 UNESCO World Heritage sites- the Taj Mahal, the Agra Fort, and the <u class=\"https://whc.unesco.org/en/list/255\">Fatepur Sikri</u>.",
+            "detailed":[
+                {
+                    "name": "<u class=\"https://www.tripadvisor.com/Attraction_Review-g297683-d317329-Reviews-Taj_Mahal-Agra_Agra_District_Uttar_Pradesh.html\">Taj Mahal</u>",
+                    "description": "The Taj Mahal is the most iconic monument, and is visited by millions of tourists each year. It serves as a tomb for the Mughal Emperor Shah Jahan's wife, Mumtaz Mahal. This wonderful feat of architecture is created entirely out of White Marble, and only took 16 years to construct, starting in 1632. Though construction ended in 1648, they took another 5 years to add the mosque, guest house, and outer courtyard. For the construction of this building, <u class=\"https://whc.unesco.org/en/list/252/\">the architects pulled calligraphers, masons, stone-cutters, carvers, and painters from the whole of Central Asia and Iran.</u>",
+                    "url": "https://www.tripadvisor.com/Attraction_Review-g297683-d317329-Reviews-Taj_Mahal-Agra_Agra_District_Uttar_Pradesh.html",
+                    "img": "./src/tajmahal.jpg"
+                },
+                {
+                    "name": "<u id=\"akbar\" class=\"https://www.tripadvisor.com/Attraction_Review-g737055-d12727702-Reviews-Akbar_s_Tomb-Sikandra_Jamui_District_Bihar.html\">Tomb of Akbar</u>",
+                    "description": "Akbar was the third and the greatest Mughal Emperor, giving him the name \"Akbar the Great.\" Although Akbar was illiterate, he was always appreciative of anyone who could teach him new things, and was very understanding of other people's religions. Akbar died 12 days after his 63rd birthday, on 27 October 1605. While Akbar was alive, he wanted to complete a beautiful mausoleum made of sandstone and marble. After he died, and during the reign of Aurangzeb, Jats rose in rebellion, and desecrated his tomb, plundering and looting all the gold, jewels, silver, and carpets.",
+                    "url": "https://www.tripadvisor.com/Attraction_Review-g737055-d12727702-Reviews-Akbar_s_Tomb-Sikandra_Jamui_District_Bihar.html",
+                    "img": "./src/tombofakbar.jpg"
+                },
+                {
+                    "name": "<u class=\"https://www.tripadvisor.com/Attraction_Review-g297683-d319695-Reviews-Agra_Fort-Agra_Agra_District_Uttar_Pradesh.html\">Agra Fort</u>",
+                    "description": "<u class=\"https://agra.nic.in/tourist-place/agra-fort/\">The Agra Fort was the main residence of the emperors of the Mughal Dynasty until 1638, when the capital was shifted from Agra to Delhi.</u> Emperor Shah Jahan, who was famous for building the Taj Mahal which is 2.5km away from the Agra Fort, had built an ornate Peacock Throne. He had placed the Koh-I-Noor Diamond inside the throne. The fort has been through many significant historical events, such as the beginning of Mughal Empire's decline, the house arrest of Shah Jahan, and a brief occupation of the fort by the British during their colonial rule. The fort is a symbol of the Mughal empire's prestige and the great effects it has placed upon India. Today, you can see other important historical buildings from the fort, such as the Taj Mahal, the Imad-ud-Daula, and the Amar Singh Gate.",
+                    "url": "https://www.tripadvisor.com/Attraction_Review-g297683-d319695-Reviews-Agra_Fort-Agra_Agra_District_Uttar_Pradesh.html",
+                    "img": "./src/agrafort.jpg"
+                }
+            ]
         },
         {
-            "place": "<u class=\"\">Nowhere</u>",
-            "description": "Description goes here!"
+            "place": "<u class=\"https://mysore.nic.in/en/\">Mysore (Mysuru)</u>",
+            "description": "Mysore is a city in the Indian state of Karnataka, and features many palaces, gardens, museums, wildlife, and more. Karnataka was originally founded as Mysore State. During the British Rule of India, the areas that currently make up Karnataka were under the rule of many different administrative factions, with some sources claiming up to 20 different entities were controlling it. Aside from that, Mysore is probably most famous for their rockets, which the British made an adaptation of."
         },
         {
-            "place": "<u class=\"\">Nowhere</u>",
-            "description": "Description goes here!"
+            "place": "<u class=\"https://bengaluruurban.nic.in/en/\">Bangalore (Bengaluru)</u>",
+            "description": "<u class=\"https://www.mapsofindia.com/my-india/history/know-how-bangalore-became-indias-it-capital-the-rise-of-the-silicon-valley-of-india\">Bangalore is said to be the 'Silicon Valley of India.'</u> Bangalore is one of the biggest cities in India, with a population of 12.3 million (as of 2020), and it is also the capital of the state of Karnataka.",
+            "detailed":[
+                {
+                    "name": "<u class=\"https://www.tripadvisor.com/Attraction_Review-g297628-d2069428-Reviews-Bangalore_Palace-Bengaluru_Bangalore_District_Karnataka.html\">Bangalore Palace</u>",
+                    "description": "is big palace",
+                    "img": "./src/bangalorepalace.jpg"
+                },
+                {
+                    "name": "<u class=\"https://www.tripadvisor.com/Attraction_Review-g297628-d325162-Reviews-ISKCON_Temple_Bangalore-Bengaluru_Bangalore_District_Karnataka.html\">ISKCON Temple</u>",
+                    "description": "<u class=\"https://www.iskconbangalore.org/\">The ISKCON (International Society for Krishna Consciousness) Temple</u> was <u class=\"https://www.wikiwand.com/en/ISKCON_Temple,_Bangalore\">inaugurated by the 9th president of India, Shankar Dayal Sharma.</u>"
+                },
+                {
+                    "name": "Walking Through the City",
+                    "description": "While this may not be a \"sight\" to see, there are a ton of things to do in Bangalore. Street food vendors are almost everywhere (though I wouldn't necessarily trust all of them), small shops, and a lot of places to walk around. <ul><li>Walking around the Sankey Tank Trail.<br> <img src=\"./src/sankeytank.jpg\" class=\"fullSize\"></li></ul>"
+                }
+            ]
         }
     ]
 }

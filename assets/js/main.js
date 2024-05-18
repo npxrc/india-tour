@@ -1,7 +1,6 @@
 try{
 	function $(e){return document.getElementById(e)}
-
-	let themeToggle = document.getElementById('dark-light');
+	
 	let requireThemePresence = document.getElementsByClassName('requireThemePresence');
 	setInterval(()=>{
 		requireThemePresence = document.getElementsByClassName('requireThemePresence');
@@ -27,27 +26,32 @@ try{
 
 	try{
 		fetch('./places.json').then(data => data.json()).then((data) => {
-			for (let place of data.places) {
-				let elem = document.createElement('section');
-				elem.classList.add('content');
+			try{
+				for (let place of data.places) {
+					let elem = document.createElement('section');
+					elem.classList.add('content');
 
-				let detailed = "";
-				let detailedplaces = "<br>";
+					let detailed = "";
+					let detailedplaces = "<br>";
 
-				if (Array.isArray(place.detailed)) {
-					detailed = `<br>Places to visit in ${place.place} include:<br><ul>`;
-					for (let detailedplace of place.detailed) {
-						let imgTag = detailedplace.img;
-						detailed += `<li>${detailedplace.name}</li>`;
-						detailedplaces += `<h3>${detailedplace.name}</h3><section style="background-image: url('${imgTag}'); padding: 5px; margin: 5px; text-shadow: 2px 2px 3px black; cursor: default;">${detailedplace.description}</section>`;
+					if (Array.isArray(place.detailed) && place.detailed.length>0) {
+						detailed = `<br><Br>Places to visit in ${place.place} include:<br><ul>`;
+						for (let detailedplace of place.detailed) {
+							let imgTag = detailedplace.img;
+							detailed += `<li>${detailedplace.name}</li>`;
+							detailedplaces += `<h3>${detailedplace.name}</h3><section style="padding: 5px; margin: 5px; cursor: default;">${detailedplace.description} <br>`+(imgTag==undefined?``:`<div class="img-container"><img src="${imgTag}"></div>`)+`</section>`;
+						}
+
+						detailed += `</ul>`;
 					}
 
-					detailed += `</ul>`;
+					elem.innerHTML = `<hr><h2>${place.place}</h2><div class="content-wrapper"><div class="content-text">${place.description}${detailed}${detailedplaces}</div></div>`;
+
+					$('container').append(elem);
 				}
-
-				elem.innerHTML = `<hr><h2>${place.place}</h2><div class="content-wrapper"><div class="content-text">${place.description}${detailed}${detailedplaces}</div></div>`;
-
-				$('container').append(elem);
+			}
+			catch(e){
+				showErrorModal(e, 'main.js');
 			}
 		});
 	}

@@ -1,17 +1,22 @@
-.content .cursorPointer > h2{
-  cursor: pointer;
+.content .cursorPointer>h2 {
+    cursor: pointer;
 }
+
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(20,20,20);
+    background-color: rgb(20, 20, 20);
     color: white;
     transition: background-color 400ms linear, color 400ms linear;
+    width: 100vw;
+    height: 100vh;
     overflow-x: hidden;
 }
-body.fakeCursorHidden{
-	cursor: default !important;
+
+body.fakeCursorHidden {
+    cursor: default !important;
 }
+
 canvas {
     position: absolute;
     z-index: -3;
@@ -19,10 +24,12 @@ canvas {
     left: 0;
     opacity: 80%;
 }
-*:not(canvas){
+
+*:not(canvas) {
     font-family: 'Product Sans Regular';
     z-index: 1;
 }
+
 .hero {
     min-height: 100vh;
     display: flex;
@@ -35,41 +42,54 @@ canvas {
     font-size: 6.3rem;
     z-index: -1;
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+    padding-bottom: 10px;
 }
+
 .hero h2 {
     font-size: 4rem;
     z-index: -1;
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
 }
+
 .content {
     padding: 25px 50px;
     margin: 0;
     transform: translateY(-10rem);
     font-size: 1.5rem;
     line-height: 1.5;
-  }
-  
-  .content h2 {
+    max-width: 99vw;
+}
+
+.content h2{
     margin-bottom: 20px;
     font-size: 3rem;
-  }
-  
-  .content-wrapper {
+	cursor: pointer !important;
+}
+.content h2, .content h3, u{
+	cursor: pointer !important;
+}
+
+.content-wrapper {
     display: flex;
     align-items: center;
-  }
-  
-  .content-text {
+}
+
+.content-text {
     flex: 1;
-  }
-  
-  .content-image {
-    margin-left: 20px;
-    max-width: 500px;
-  }
-  
-  .content-image img {
-    max-width: 100%;
-    height: auto;
-  }
-  
+}
+
+.img-container {
+    display: flex;
+    place-content: center;
+}
+.content img {
+    max-width: 40%;
+    margin-top: 20px;
+}
+img.fullSize{
+    max-width: 90%!important;
+}
+
+section{
+    max-width: 94vw;
+}

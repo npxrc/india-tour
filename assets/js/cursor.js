@@ -1,9 +1,9 @@
 try{
-    let cursorMoveDuration = 300;
     let cursor = document.getElementsByTagName('cursor')[0]
     let clientX;
     let clientY;
     let mouse='up'
+
     window.onpointermove = event => { 
         cursorActive();
         clientX = event.clientX;
@@ -11,19 +11,10 @@ try{
         cursor.animate({
             left: `${clientX}px`,
             top: `${clientY+scrollY}px`
-        }, { duration: 750, fill: "forwards" });
+        }, { duration: 500, fill: "forwards" });
         hidecursor = setTimeout(() => {cursorIdle()}, 2500);
     }
-    if (('ontouchstart' in window)==true||navigator.msMaxTouchPoints>0){
-        cursor.style.display="none"
-    }
-    setInterval(() => {
-        if (('ontouchstart' in window)==true||navigator.msMaxTouchPoints>0){
-            cursor.style.display="none"
-        } else{
-            cursor.style.display="block"
-        }
-    }, 1000);
+    cursor.style.display="none"
     function openURL(url, bypass){
         if (bypass) return window.open(url)
         if (confirm('This will open in a new window, continue?')){
