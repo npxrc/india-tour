@@ -57,6 +57,11 @@
                         })
                     } else if (isbanned){
                         null;
+                        scrollTo({
+                            top: 0,
+                            left: 0,
+                            behavior: "smooth"
+                        })
                     } else{
                         isbanned?location.reload():null;
                     }
@@ -80,6 +85,11 @@
                             })
                         } else if (isbanned){
                             null;
+                            scrollTo({
+                                top: 0,
+                                left: 0,
+                                behavior: "smooth"
+                            })
                         } else{
                             isbanned?location.reload():null;
                         }
