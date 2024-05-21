@@ -38,8 +38,19 @@ try{
 						detailed = `<br><Br>Places to visit in ${place.place} include:<br><ul>`;
 						for (let detailedplace of place.detailed) {
 							let imgTag = detailedplace.img;
+							let imgTag2 = detailedplace.img2;
+							if (imgTag==undefined){
+								imgTag=''
+							} else{
+								imgTag=`<img src="${imgTag}">`
+							}
+							if (imgTag2==undefined){
+								imgTag2=''
+							} else{
+								imgTag2=`<img src="${imgTag2}">`
+							}
 							detailed += `<li>${detailedplace.name}</li>`;
-							detailedplaces += `<h3>${detailedplace.name}</h3><section style="padding: 5px; margin: 5px; cursor: default;">${detailedplace.description} <br>`+(imgTag==undefined?``:`<div class="img-container"><img src="${imgTag}"></div>`)+`</section>`;
+							detailedplaces += `<h3>${detailedplace.name}</h3><section style="padding: 5px; margin: 5px; cursor: default;">${detailedplace.description} <br><div class="img-container">${imgTag}${imgTag2}</div></section>`;
 						}
 
 						detailed += `</ul>`;
@@ -52,6 +63,7 @@ try{
 			}
 			catch(e){
 				showErrorModal(e, 'main.js');
+				console.error(e)
 			}
 		});
 	}

@@ -6,8 +6,15 @@
             "detailed":[
                 {
                     "name": "Delhi Red Fort",
-                    "description": "The Delhi Red Fort, originally called the Qila-E-Mubarak and the Lal Qila, is the largest monument in Delhi. The construction of the fort occurred between 1639 and 1648 as the palace fort of Mughal Emperor Shah Jahan's new capital, aptly named Shahjahanabad. Commissioned by Shah Jahan, the fort was made of red sandstone and white marble, and the exterior walls made of white limestone.",
-                    "img": "./src/redfort.jpg"
+                    "description": "The Delhi Red Fort, originally called the Qila-E-Mubarak and the Lal Qila, is the largest monument in Delhi. The construction of the fort occurred between 1639 and 1648 as the palace fort of Mughal Emperor Shah Jahan's new capital, aptly named Shahjahanabad. Commissioned by Shah Jahan, the fort was made of red sandstone and white marble, and the exterior walls made of white limestone. The fort's architecutre is a blend of Islamic, Hindu, Persian, and Timurid styles. The fort covers an impressive area of 255 acres and if you were to walk around the edge, would span 2.5 kilometers. The fort's 33 meter high walls, The Rang Mahal for royal ladies, and the Mumtaz Mahal (called the \"मुमताज़ महल\" in Hindi, quite literally meaning Jewel Palace) among other structures in the fort show off the complex designs and architecture of the 1600's. <br>In 1739, the fort was invaded and plundered by the Persian ruler Nadish Shah, who took away the famous Peacock Throne which held the Koh-i-noor diamond, and it's other treasures. Further, after hte 1857 revolt against the British, the fort's marble structures were demolished. Currently, the Red Fort is a UNESCO heritage site.",
+                    "img": "./src/redfort.jpg",
+                    "img2": "./src/redfort2.jpg"
+                },
+                {
+                    "name": "Delhi Old Fort",
+                    "description": "The Purana Qila, also known as the Old Fort, <u class=\"https://www.wikiwand.com/en/History_of_Delhi#In_mythology\">is believed to be the site of the ancient city of Indraprastha,</u> mentioned in the <u class=\"https://www.britannica.com/topic/Mahabharata\">Mahabharata.</u> The fort holds immense historical significance <u class=\"https://www.wmf.org/publication/walk-around-purana-qila\">as it is one of the oldest standing structures in the city of Delhi.</u> Evidence shows that the site has some pottery fragments which could date as far back as 1000 B.C. The fort was constructed by the Mughal Emperor Humayun in the 16th century as part of the new city of Dinpanah. After his defeat, however, the fort was captured and renovated by Sher Shah Suri in 1540. During the 1940's, the fort also served as a temporary refuge for Japanese civilians during World War 2. The fort's architectural features, such as the massive walls, it's gates, and structures such as the Sher Mandal serve as a testimony to the techniques of construction by Mughal and Afghan rulers.",
+                    "img": "./src/oldfort.jpg",
+                    "img2": "./src/oldfort2.jpg"
                 }
             ]
         },
@@ -17,27 +24,26 @@
             "detailed":[
                 {
                     "name": "<u class=\"https://www.tripadvisor.com/Attraction_Review-g297683-d317329-Reviews-Taj_Mahal-Agra_Agra_District_Uttar_Pradesh.html\">Taj Mahal</u>",
-                    "description": "The Taj Mahal is the most iconic monument and is visited by millions of tourists each year. It serves as a tomb for the Mughal Emperor Shah Jahan's wife, Mumtaz Mahal. This wonderful feat of architecture is created entirely out of White Marble, and only took 16 years to construct, starting in 1632. Though construction ended in 1648, they took another 5 years to add the mosque, guest house, and outer courtyard. For the construction of this building, <u class=\"https://whc.unesco.org/en/list/252/\">the architects pulled calligraphers, masons, stone-cutters, carvers, and painters from the whole of Central Asia and Iran.</u>",
+                    "description": "The Taj Mahal is a breathtaking mausoleum in Agra. The mausoleum is widely regarded as one of the most beautiful and iconic monuments in the world. This architectural feat was comissioned in 1632 by Mughal Emperor Shah Jahan to be a memorial for his wife, Mumtaz Mahal, who passed away during childbirth. The creation of this structure took around 16 years, and the constructors employed a workforce of 20,000 skilled artisans and craftsmen from across Asia. The Taj Mahal is full of intricate carvings, covering the walls, floors, and ceilings. The dome in the center of the structure is constructed entirely out of white marble, and it looks as if it glows at night during the full moon. Around the structure lay beautiful gardens, a mosque, and a guest house, which all complement the Taj Mahal. After nearly four centuries, the Taj Mahal still draws millions of visitors from across the world each year with its backstory and its wonderful architecture.",
                     "url": "https://www.tripadvisor.com/Attraction_Review-g297683-d317329-Reviews-Taj_Mahal-Agra_Agra_District_Uttar_Pradesh.html",
-                    "img": "./src/tajmahal.jpg"
+                    "img": "./src/tajmahal.jpg",
+                    "img2": "./src/tajmahal2.webp"
                 },
                 {
                     "name": "<u id=\"akbar\" class=\"https://www.tripadvisor.com/Attraction_Review-g737055-d12727702-Reviews-Akbar_s_Tomb-Sikandra_Jamui_District_Bihar.html\">Tomb of Akbar</u>",
                     "description": "Akbar, who was the third and greatest Mughal Emperor, was called \"Akbar the Great\" for his leadership skills and his remarkable reign. Despite being illiterate, Akbar was known for being appreciative of those who could teach him new things. Another reason Akbar was praised was because of his religious tolerance, as he also appreciated other faiths. Towards the end of Akbar's life, at the age of sixty-three, Akbar envisioned a large mausoleum. Though he died 12 days after his 63rd birthday, on October 27, 1605, the construction of his mausoleum continued under the rule of Aurangzeb, who was Akbar's successor. The mausoleum was to be handcrafted from exquisite sandstone, and marble, and was built from 1605 until 1613. However, during the Jat rebellion which occurred during this period, the mausoleum was desecrated, and the riches such as gold, silver, jewels, and carpets, were stolen by the rebels. Despite this, the mausoleum still stands as a testament to the great Mughal Empire, and to Akbar himself. The intricate carvings and the blend of Hindu and Islamic architectural styles perfectly reflect Akbar's religious tolerance and show off the creativity of the artisans and architects of this period.",
                     "url": "https://www.tripadvisor.com/Attraction_Review-g737055-d12727702-Reviews-Akbar_s_Tomb-Sikandra_Jamui_District_Bihar.html",
-                    "img": "./src/tombofakbar.jpg"
+                    "img": "./src/tombofakbar.jpg",
+                    "img2": "./src/tombofakbar2.jpg"
                 },
                 {
                     "name": "<u class=\"https://www.tripadvisor.com/Attraction_Review-g297683-d319695-Reviews-Agra_Fort-Agra_Agra_District_Uttar_Pradesh.html\">Agra Fort</u>",
                     "description": "<u class=\"https://agra.nic.in/tourist-place/agra-fort/\">The Agra Fort was the main residence of the emperors of the Mughal Dynasty until 1638, when the capital was shifted from Agra to Delhi.</u> Emperor Shah Jahan, who was famous for building the Taj Mahal which is 2.5km away from the Agra Fort, had built an ornate Peacock Throne. He had placed the Koh-I-Noor Diamond inside the throne. The fort has been through many significant historical events, such as the beginning of Mughal Empire's decline, the house arrest of Shah Jahan, and a brief occupation of the fort by the British during their colonial rule. The fort is a symbol of the Mughal empire's prestige and the great effects it has placed upon India. Today, you can see other important historical buildings from the fort, such as the Taj Mahal, the Imad-ud-Daula, and the Amar Singh Gate.",
                     "url": "https://www.tripadvisor.com/Attraction_Review-g297683-d319695-Reviews-Agra_Fort-Agra_Agra_District_Uttar_Pradesh.html",
-                    "img": "./src/agrafort.jpg"
+                    "img": "./src/agrafort.jpg",
+                    "img2": "./src/agrafort2.avif"
                 }
             ]
-        },
-        {
-            "place": "<u class=\"https://mysore.nic.in/en/\">Mysore (Mysuru)</u>",
-            "description": "Mysore is a city in the Indian state of Karnataka, and features many palaces, gardens, museums, wildlife, and more. Karnataka was originally founded as Mysore State. During the British Rule of India, the areas that currently make up Karnataka were under the rule of many different administrative factions, with some sources claiming up to twenty different entities were controlling it. Aside from that, Mysore is probably most famous for their rockets, which the British made an adaptation of."
         },
         {
             "place": "<u class=\"https://bengaluruurban.nic.in/en/\">Bangalore (Bengaluru)</u>",
@@ -45,12 +51,15 @@
             "detailed":[
                 {
                     "name": "<u class=\"https://www.tripadvisor.com/Attraction_Review-g297628-d2069428-Reviews-Bangalore_Palace-Bengaluru_Bangalore_District_Karnataka.html\">Bangalore Palace</u>",
-                    "description": "is big palace",
-                    "img": "./src/bangalorepalace.jpg"
+                    "description": "<u class=\"https://www.karnataka.com/bangalore/bangalore-palace/\">The Banglaore Palace is a magnificent palace which holds immense historical significance,</u> showing the grandeur of the Wadiyar dynasty. <u class=\"https://www.karnataka.com/bangalore/bangalore-palace/\">The palace was originally constructed in 1887 by King Chamaraka Wadiyar</u>, and it showcases a blend of Tudor and Scottish Gothic architectural styles. This blend of style showcases the great influence the British Raj had on India. THE palace is located in the heart of Bangalore, in the Vasanth Nagar area. This was probably the most opportune spot as it served as a residence to the Wadiyar kings. <u class=\"https://www.fabhotels.com/blog/bangalore-palace-bangalore/\">The palace is currently owned by the legal heirs of the Wadiyar dynasty, and has been opened to the public since 2005.</u> Despite legal battles over the ownership of the palace in the past, the palace remains a cherished heritage site, and is preserved well by its custodians. The palace's grounds have also played a significnat role in the growth of Bangalore's contemporary culture, as it has hosted several concerts, festivals, and performances by international artists. The palace is a beautiful site wiht a  rich history, and is well preserved, which ensures that the history of the palace is known.",
+                    "img": "./src/bangalorepalace.jpg",
+                    "img2": "./src/bangalorepalace2.jpg"
                 },
                 {
                     "name": "<u class=\"https://www.tripadvisor.com/Attraction_Review-g297628-d325162-Reviews-ISKCON_Temple_Bangalore-Bengaluru_Bangalore_District_Karnataka.html\">ISKCON Temple</u>",
-                    "description": "<u class=\"https://www.iskconbangalore.org/\">The ISKCON (International Society for Krishna Consciousness) Temple</u> was <u class=\"https://www.wikiwand.com/en/ISKCON_Temple,_Bangalore\">inaugurated by the 9th president of India, Shankar Dayal Sharma.</u>"
+                    "description": "<u class=\"https://www.iskconbangalore.org/\">The ISKCON (International Society for Krishna Consciousness) Temple</u> was <u class=\"https://www.wikiwand.com/en/ISKCON_Temple,_Bangalore\">inaugurated by the 9th president of India, Shankar Dayal Sharma on 31 May, 1997.</u> This temple is one of the biggest in the world, and it is located in Rajaginagar, Bangalore. The temple complex spans 7 acres, and took 10 years to construct, from 1987 to 1997. ",
+                    "img": "./src/iskcontemple.webp",
+                    "img2": "./src/iskcontemple2.jpg"
                 }
             ]
         }
